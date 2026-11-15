@@ -2,7 +2,7 @@ package kr.coinpack.mixin;
 
 import kr.coinpack.CoinPackMod;
 import net.minecraft.core.BlockPos;
-import net.minecraft.server.level.ServerExplosion;
+import net.minecraft.world.level.ServerExplosion;
 import net.minecraft.server.level.ServerLevel;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
