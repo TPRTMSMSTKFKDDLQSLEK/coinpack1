@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "coinpack",
+  "version": "${version}",
+  "name": "Coin Item + Chunk Claim",
+  "description": "코인 아이템(최대 99) + 코인 10개로 청크 구매, 땅 문서 소유자만 산 청크에서 설치/상호작용/채굴 가능",
+  "license": "MIT",
+  "icon": "assets/coinpack/icon.png",
+  "environment": "*",
+  "entrypoints": { "main": [ "kr.coinpack.CoinPackMod" ] },
+  "mixins": [ "coinpack.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
